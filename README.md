@@ -2,6 +2,6 @@
 My project from the Time In Time Out project of the Media Design Master, HEAD-Genève.
 
 ## Process
-Here is my process folder
+[Here](process/README.md) is my process folder
 
 
