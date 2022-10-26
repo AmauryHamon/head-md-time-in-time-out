@@ -31,4 +31,4 @@ Here is my process folder to describe progress throughout the semester
 …
 
 ## My fav fictional wearable
-- [Fallout Pip Boy](https://static.wikia.nocookie.net/fallout/images/7/72/Fallout4_E3_PipBoy.png/revision/latest/scale-to-width-down/1000?cb=20150615125852)
+- ![Fallout Pip Boy](https://static.wikia.nocookie.net/fallout/images/7/72/Fallout4_E3_PipBoy.png/revision/latest/scale-to-width-down/1000?cb=20150615125852)
