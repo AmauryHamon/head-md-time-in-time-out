@@ -12,6 +12,7 @@ Here is my process folder to describe progress throughout the semester
     ![Mug](https://d2w9rnfcy7mm78.cloudfront.net/14860849/original_cc8a5dcc37377d8ce2b42d109ad07296.jpg?1643124174?bc=0)
     - Take time to reflect, slow down and think, review, question your surroundings
     - Invitation to caring
+    - Daily Rituals (Thomas Geiger)
 
 
 ## Cool References
@@ -20,6 +21,6 @@ Here is my process folder to describe progress throughout the semester
 2. It's an app: [Flight Simulator, Laurel Schwust & Soft](https://flightsimulator.soft.works/): An ode to airplane mode
     ![Flight Sim App](https://d2w9rnfcy7mm78.cloudfront.net/18013410/original_0e0092b3663ea4819e68b8baeca8d0a6.png?1663000604?bc=0)
 3. It's an article: [On observing time, Jon Gacnik](https://thecreativeindependent.com/essays/on-observing-time/)
-
+4. It's a machine: [Thinking Machine, Thomas Geiger]!(http://www.twgeiger.de/images/thomas-geiger-denkmaschine.jpg)
 ## Gestures
 …
