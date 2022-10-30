@@ -7,10 +7,10 @@ Draft for an interview questionnaire to ask around about how people get their mo
 - Est ce que tu fais cela seul, accompagné ?
 
 Updated version based on A & D feedbacks:
+- Imaginez devoir retrouver un ami dans un café et celui-ci a une heure de retard. Vous êtes déjà installé dans le café, que faites-vous?
 - racontez moi la dernière fois que vous avez ressenti le besoin de prendre du recul sur un événement de votre vie, questionner une décision importante, faire le bilan d'une période de temps donné, ou autres?
 - qu’avez vous fait? et dans quel but?
 - est-ce que vous le faite souvent?
 - dans ces moments là, que faites-vous? Dans quelles conditions faites-vous cela? 
-- faites vous quelque chose en particulier pour vous aider?
 - si vous deviez imaginer un objet pour vous aider à déclencher ce processus, quel serait-il? comment pourrait-il vous aider?
 
