@@ -11,3 +11,6 @@ Magic 8 Ball –
 ![Magic 8 Ball](https://cdn.jsdelivr.net/gh/MakeSchool-Tutorials/Magic-8Ball-Swift4@bd4381e179660731454e6370f7051898c712e077/P1-Getting-Started/assets/signs_point.jpg)
 ![List of 8 Ball answers)](https://static.vecteezy.com/ti/vecteur-libre/p1/87501-magic-8-ball-vector-pack-gratuit-vectoriel.jpg)
 
+[The Everyday Calendar – Simone Giertz](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar?lang=fr)
+
+[Build Dice – Simone Giertz & Laura Kampf](https://yetch.store/products/build-dice)
