@@ -14,3 +14,6 @@ Magic 8 Ball –
 [The Everyday Calendar – Simone Giertz](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar?lang=fr)
 
 [Build Dice – Simone Giertz & Laura Kampf](https://yetch.store/products/build-dice)
+
+[Brian Eno's & Peter Schmidt's Oblique Strategies Cards](https://en.wikipedia.org/wiki/Oblique_Strategies#:~:text=Oblique%20Strategies%20(subtitled%20Over%20One,Schmidt%2C%20first%20published%20in%201975.)
+
