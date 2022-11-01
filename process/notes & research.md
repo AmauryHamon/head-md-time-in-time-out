@@ -1,4 +1,0 @@
-2022.10.31
-
-# Mind-wandering
-is a broad term with no currently universal definition. According to McMillan, Kaufmann and Singer (2013) mind-wandering consists of 3 different subtypes: positive constructive daydreaming, guilty fear of failure, and poor attentional control. Whereas Smallwood and Schooler (2015) suggest that mind-wandering consists of thoughts that are task-unrelated and stimulus-independent. In general, a folk explanation of mind-wandering could be described as the experience of thoughts not remaining on a single topic for a long period of time, particularly when people are engaged in an attention-demanding task.[1]
