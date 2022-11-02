@@ -3,6 +3,7 @@
 Thinking Machines have a long tradition in history. Their use is based on creating rational knowledge and philosophical investigation through the principle of chance. In addition to chance, their function is also based on constrained techniques.
 
 # Thinking Machines references
+[EPFL Pavilions exhibition](https://epfl-pavilions.ch/exhibitions/thinking-machines)
 
 Thomas Geiger's
 ![Thinking Machine by Thomas Geiger](http://www.twgeiger.de/images/thomas-geiger-denkmaschine.jpg)
