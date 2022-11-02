@@ -1,7 +1,12 @@
+# Thinking Machines
+
+Thinking Machines have a long tradition in history. Their use is based on creating rational knowledge and philosophical investigation through the principle of chance. In addition to chance, their function is also based on constrained techniques.
+
 # Thinking Machines references
 
 Thomas Geiger's
 ![Thinking Machine by Thomas Geiger](http://www.twgeiger.de/images/thomas-geiger-denkmaschine.jpg)
+By spinning the wheels I receive a combination of 3 words that stays with me throughout the day and serves as the basis for my visualization. The Thinking Machine is a continuous practice of my daily practice and helps me to rediscover my surroundings through the filter of language.
 
 Pretend's Art Director/Developer dice to shift course of action in the creative process
 ![Dice](https://cdn.shopify.com/s/files/1/1519/8910/products/PretendStore_Pocket_Art_Director_II---3_2c6cb1de-7d26-4101-8f96-25b65166641b_1920x.jpg?v=1580332538)
