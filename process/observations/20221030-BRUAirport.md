@@ -16,9 +16,9 @@ People wait:
 I am interested at looking at people in their non-social moments, and/or in their non-screen moments. People staying still within an active environment or flux of other people. I am interested at figuring out what drives people to those moments, and how to stimulate those more often. instead of replacing their life 
 It seems to me those moments are crucial because less and less, we allow for them to happen and occure within our resting, commuting, waiting, and all sorts of non-productive oriented activities.
 
-11 o'clock: a couple looking together at one smartphone. The woman lies her head on her partner's shoulder, while he scrolls through. 
-2 o'clock: a couple seating and eating together. They don't talk, both seam in their thoughts, though exchanging looks.
-10 o'clock: a guy in his sixties with a short sleeve harley davidson shirt gaze at airport people. His wife and daughter just arrived at the table.
-11 oclock: a guy in big black puff jacket is desperately looking for a plug. His goal is clear, looking at all the busy plugged tables with the eye of judgment.
+- 11 o'clock: a couple looking together at one smartphone. The woman lies her head on her partner's shoulder, while he scrolls through. 
+- 2 o'clock: a couple seating and eating together. They don't talk, both seam in their thoughts, though exchanging looks.
+- 10 o'clock: a guy in his sixties with a short sleeve harley davidson shirt gaze at airport people. His wife and daughter just arrived at the table.
+- 11 oclock: a guy in big black puff jacket is desperately looking for a plug. His goal is clear, looking at all the busy plugged tables with the eye of judgment.
 
 
