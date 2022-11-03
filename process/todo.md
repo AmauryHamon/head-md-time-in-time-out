@@ -3,8 +3,10 @@
 - Improve observations
   - More related to time
   - More specific to non-task
-- Create prototypes of my thinking machine
-    - Lists words
+- Based on observations Create prototypes of my thinking machine
+    - Lists opinionated keywords
         - actions
-        - 
+        - topics
+        - items
 - Refine Pitch
+- Create Interactive Narration Prototype
