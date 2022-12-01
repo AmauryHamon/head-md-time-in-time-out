@@ -6,7 +6,7 @@
 
 - What shape should it take?
     I'd like a round shape plane on the main side: so the user can touch and navigate as a ship wheel.
-    
+
 
 - Which materials would you like to use?
     ### Potential Sensors & electronics parts
@@ -27,6 +27,8 @@
 
     - Digital Compass
         [GY-273 QMC5883L 3-Axis Compass Magnetometer Module](https://www.bastelgarage.ch/bauteile/sensoren/bewegung/gy-273-qmc5883l-3-achsen-kompass-magnetometer-modul)
+(
+    - GPS for geocaching maybe? [GPS](https://www.adafruit.com/product/1272)
         
     ### Device materials for casing
     - Bioplastics – using Algae [bioplastics](https://www.dezeen.com/2019/01/18/margarita-talep-algae-bioplastic-packaging-design/)
