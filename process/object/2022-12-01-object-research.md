@@ -1,12 +1,13 @@
 # Based on your narratives, start materialising your object.
 
 - Where is it worn? How is it worn? How do you interact with it?
-    - On the wrist/forearm
-- What proportions and dimensions would you like it to have (ideal size in mm)?
+    On the wrist/forearm, to navigate with a circular touch gesture similar to old ipods (see below)
 
+- What proportions and dimensions would you like it to have (ideal size in mm)?
+    Max 10cm*5cm
+    
 - What shape should it take?
     I'd like a round shape plane on the main side: so the user can touch and navigate as a ship wheel.
-
 
 - Which materials would you like to use?
     ### Potential Sensors & electronics parts
