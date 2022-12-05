@@ -14,13 +14,13 @@
 
 - Which materials would you like to use?
     ### Potential Sensors & electronics parts
-    - Thermal printer: How user discovers content of the locations
+    - THERMAL PRINTER: How user discovers content of the locations
         
         [Adafruit nude thermal printer](https://www.adafruit.com/product/2753)
         
         [Adafruit nano thermal printer](https://www.adafruit.com/product/2752)
     
-    - Navigation parts: How user interacts
+    - NAVIGATION PARTS: How user interacts
         
         Capacitive wheel touch similar to old iPods [shop link](https://www.bastelgarage.ch/dfrobot/capacitive-touch-kit-fur-arduino?page=4)
         
@@ -28,7 +28,7 @@
         
         Mechanical Ship Wheel to rotate[Mechanical Ship Wheel](https://poolkart.com/wp-content/uploads/2021/01/shipwheel-bracelet-poolkart1.jpg)
     
-    - Environmental sensor: How weather data influence risk of storm and what to locations to discover
+    - ENVIRONMENTAL SENSOR: How weather data influence risk of storm and what to locations to discover
         
         [BME680 Breakout Humidity, Pressure, Temperature & Air Quality Sensor](https://www.bastelgarage.ch/raspberry-pi/rpi-sensoren/bme680-breakout-luftfeuchtigkeits-druck-temperatur-luftgutesensor)
         
@@ -40,10 +40,10 @@
         
         [Gravity environment sensor for temperature-humidity-barometric pressure-UV brightness](https://www.bastelgarage.ch/bauteile/sensoren/temperatur/gravity-umgebungssensor-fur-temperatur-feuchte-luftdruck-uv-helligkeit)
 
-    - Digital Compass: How user movement interacts with path to locations
+    - DIGITAL COMPASS: How user movement interacts with path to locations
         
         [GY-273 QMC5883L 3-Axis Compass Magnetometer Module](https://www.bastelgarage.ch/bauteile/sensoren/bewegung/gy-273-qmc5883l-3-achsen-kompass-magnetometer-modul)
-(
+
     - GPS for geocaching maybe? How user movement interacts with path to locations
         [GPS](https://www.adafruit.com/product/1272)
         
