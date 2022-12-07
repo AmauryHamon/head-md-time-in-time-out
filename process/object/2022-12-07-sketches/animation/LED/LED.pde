@@ -1,7 +1,9 @@
 //ArrayList<Circle> circles = new ArrayList<Circle>();
+import processing.svg.*;
 
 void setup() {
   size(900, 900);
+  beginRecord(SVG, "LED-template.svg");
   background(0);
 
   float amount = 32;
@@ -10,11 +12,10 @@ void setup() {
   int dist = 300;
 
   translate(width/2, height/2);
-  
+  fill(255);
   noStroke();
   
   for (int i = 0; i < amount; i++) {
-    fill(#f1f1f1);
     pushMatrix();
     rotate(radians(i*step));
     ellipse(0, dist, elsize, elsize);
@@ -25,7 +26,6 @@ void setup() {
   dist -= 60;
   
   for (int i = 0; i < amount; i++) {
-    fill(#f1f1f1);
     pushMatrix();
     rotate(radians(i*step));
     ellipse(0, dist, elsize, elsize);
@@ -36,7 +36,6 @@ void setup() {
   dist -= 60;
 
   for (int i = 0; i < amount; i++) {
-    fill(#f1f1f1);
     pushMatrix();
     rotate(radians(i*step));
     ellipse(0, dist, elsize, elsize);
@@ -46,7 +45,6 @@ void setup() {
   step = 360 / amount;
   dist -= 60;
   for (int i = 0; i < amount; i++) {
-    fill(#f1f1f1);
     pushMatrix();
     rotate(radians(i*step));
     ellipse(0, dist, elsize, elsize);
@@ -55,9 +53,8 @@ void setup() {
   amount = 8;
   step = 360 / amount;
   dist -= 60;
-  position = 0;
+  //position = 0;
   for (int i = 0; i < amount; i++) {
-    fill(#f1f1f1);
     pushMatrix();
     rotate(radians(i*step));
     ellipse(0, dist, elsize, elsize);
@@ -65,8 +62,9 @@ void setup() {
   }
   dist -= 60;
   ellipse(0, dist, elsize, elsize);
+  endRecord();
 
-  save("LED.png");  
+  //save("LED.png");  
 }
 
 void draw() {
