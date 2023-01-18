@@ -18,6 +18,9 @@ CRGB leds[NUM_LEDS];
 CRGB solidColor = CRGB::Blue;
 uint8_t colorIndex[NUM_LEDS];
 
+
+
+
 #include "Disk.h"
 
 // Gradient palette "es_pinksplash_07_gp", originally from
@@ -95,6 +98,9 @@ DEFINE_GRADIENT_PALETTE( Caribbean_gp ) {
 CRGBPalette16 currentPalette(es_pinksplash_07_gp);
 CRGBPalette16 targetPalette(Caribbean_gp);
 
+CRGBPalette16 rainPal(rain_gp);
+
+
 
 
 
@@ -110,7 +116,9 @@ void setup() {
   Serial.begin(19200);  //19200 works well for detecting capacitive touch somehow
   Wire.begin();
   CapaTouch.begin();
-  randomSeed(analogRead(0));  //EXTRA RANDOMNESS!!!!!
+
+  //EXTRA RANDOMNESS!!!!! 
+  randomSeed(analogRead(0));  
 
   //Setup LEDs
   FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS);
@@ -136,7 +144,7 @@ void loop() {
   
   FastLED.show();
   fadeToBlackBy(leds, NUM_LEDS, 10);
-  Serial.println(whichPalette);
+  // Serial.println(whichPalette);
 }
 void changeBrightness() {
   //Adjust brightness with potentiometer
@@ -153,23 +161,23 @@ void touchControls() {
   key = CapaTouch.wheelKey();
   bool newTouch = true;
   // Helper to check which case goes for which direction
-  //  if (key >= 0) {
-  //   // Serial.print("real key = ");
-  //   Serial.println(key);
-  // }
-  // else {
-  //   // Serial.println("-1");
-  // }
+   if (key >= 0) {
+    // Serial.print("real key = ");
+    Serial.println(key);
+  }
+  else {
+    // Serial.println("-1");
+  }
   switch (key) {
     case 9:  // North
       FastLED.clear();
-      // shipWheel1a();
       if (!touchHold) {
         drawRadius360(0, CRGB::Yellow, 0, 5);
         whichPalette++; 
-      } else {
-         blendPalette();
-      }
+      } 
+      // else {
+      //    blendPalette();
+      // }
       
       break;
 
@@ -281,9 +289,9 @@ void touchControls() {
       drawRadius360(360 - 22.5, CRGB::Yellow, 0, 5);
       // delay(DELAY);
       break;
-    case 20:  //Center
-      // delay(DELAY);
-      step0();
+    case 20:  //Center button
+      journeyStep = 0;
+      Serial.print(journeyStep);
       break;
     default:  //release
       // delay(DELAY);
@@ -323,7 +331,7 @@ void stepLess() {
   // delay(DELAY);
   journeyStep--;
   journeyStep %= 7;
-  Serial.println(journeyStep);
+  // Serial.println(journeyStep);
 }
 void stepMore() {
   // int DELAY = 250;
@@ -347,9 +355,11 @@ void strandTest() {
 //PING RADAR VIBE
 void step0() {
   // pacifica_loop();
-  
-  setPixel360(0, 0, CRGB::White);
+  EVERY_N_SECONDS(2) {
+      setPixel360(0, 0, CRGB::White);
 
+  }
+  fadeToBlackBy(leds, NUM_LEDS, .2);
   // EVERY_N_MILLISECONDS(3000) {
   //   for(int i=0;i<=journeyStep;i++){
   //   setPixel360(random(360), i, CRGB::White);
@@ -357,13 +367,19 @@ void step0() {
   //   }
   // }
   // delay(10);
-  fadeToBlackBy(leds, NUM_LEDS, 2);
+
 }
 //CLEAR SKY SUNRISE
 void step1() {
 
   pacifica_loop();
-  setPixel360(0, 1, CRGB::White);
+  for(int i=0;i<2;i++){
+    setPixel360(random(360), 1, CRGB::White);
+    break;
+  }
+  
+
+
   // EVERY_N_MILLISECONDS(100) {
   //   for(int i=0;i<=journeyStep;i++){
   //   setPixel360(random(360), i, CRGB::White);
@@ -397,6 +413,7 @@ void step3() {
 //HEAVY RAIN AND LIGHTNING, DAY
 void step4() {
   pacifica_loop();
+  rainAnim();
   setPixel360(0, 4, CRGB::White);
   // EVERY_N_MILLISECONDS(100) {
   //   for(int i=0;i<=journeyStep;i++){
@@ -421,23 +438,24 @@ void step5() {
 }
 //STORM VORTEX RESET
 void step6() {
+  vortex();
+  
+  // EVERY_N_SECONDS(1) {
+  //   for (int i = 0; i < NUM_LEDS; i++) {
+  //     // Set the i'th led to red
+  //     static uint8_t hue = 0;
+  //     leds[i] = CHSV(hue++, 255, 255);
 
-  EVERY_N_MILLISECONDS(100) {
-    for (int i = 0; i < NUM_LEDS; i++) {
-      // Set the i'th led to red
-      static uint8_t hue = 0;
-      leds[i] = CHSV(hue++, 255, 255);
+  //     for (int i = 0; i <= journeyStep; i++) {
+  //       setPixel360(random(360), i, CRGB::White);
+  //       fadeToBlackBy(leds, NUM_LEDS, 50);
+  //     }
 
-      for (int i = 0; i <= journeyStep; i++) {
-        setPixel360(random(360), i, CRGB::White);
-        fadeToBlackBy(leds, NUM_LEDS, 50);
-      }
-
-      FastLED.show();
-      fadeToBlackBy(leds, NUM_LEDS, 20);
-      // delay(100);
-    }
-  }
+  //     FastLED.show();
+  //     fadeToBlackBy(leds, NUM_LEDS, 20);
+  //     // delay(100);
+  //   }
+  // }
   fadeToBlackBy(leds, NUM_LEDS, 2);
 }
 //////////////////////////////////////////////////////////////
@@ -504,4 +522,36 @@ void blendPalette(){
     
   }
   FastLED.show();
+}
+void rainAnim(){ //sparkling effect
+  // Switch on a LED at random, choosing from random color from palette
+  EVERY_N_MILLISECONDS(50){
+    leds[random8(0,NUM_LEDS-1)] = ColorFromPalette(rainPal, random8(),255,LINEARBLEND);
+  }
+  //Fade all LEDS down by 1 in Brightness each time this is called
+  // fadeToBlackBy(leds, NUM_LEDS, 1); //rain style
+  fadeToBlackBy(leds, NUM_LEDS, 10); //heavy rain style
+  // fadeToBlackBy(leds, NUM_LEDS, 100); //electrical sparks style
+  
+
+  FastLED.show();
+}
+void fadeall() { for(int i = 0; i < NUM_LEDS; i++) { leds[i].nscale8(250); } }
+void vortex(){
+  static uint8_t hue = 0;
+	Serial.print("x");
+	// First slide the led in one direction
+
+	for(int i = 0; i < NUM_LEDS; i++) {
+		// Set the i'th led to red 
+		leds[i] = CHSV(hue++, 81, 63); //removed hue++
+		// Show the leds
+		FastLED.show(); 
+		// now that we've shown the leds, reset the i'th led to black
+		// leds[i] = CRGB::Black;
+		fadeall();
+		// Wait a little bit before we loop around and do it again
+		delay(50);
+	}
+	Serial.print("x");
 }

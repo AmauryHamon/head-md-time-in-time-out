@@ -13,11 +13,11 @@
 #include <FastLED.h>
 FASTLED_USING_NAMESPACE
 
-#define DATA_PIN            6
-#define NUM_LEDS            93
-#define MAX_POWER_MILLIAMPS 250
-#define LED_TYPE            WS2812B
-#define COLOR_ORDER         GRB
+// #define DATA_PIN            6
+// #define NUM_LEDS            93
+// #define MAX_POWER_MILLIAMPS 250
+// #define LED_TYPE            WS2812B
+// #define COLOR_ORDER         GRB
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -64,12 +64,15 @@ FASTLED_USING_NAMESPACE
 // the waters off the southern coast of California, https://goo.gl/maps/QQgd97jjHesHZVxQ7
 //
 CRGBPalette16 pacifica_palette_1 = 
+// currentPalette;
     { 0x000507, 0x000409, 0x00030B, 0x00030D, 0x000210, 0x000212, 0x000114, 0x000117, 
       0x000019, 0x00001C, 0x000026, 0x000031, 0x00003B, 0x000046, 0x14554B, 0x28AA50 };
 CRGBPalette16 pacifica_palette_2 = 
+// targetPalette;
     { 0x000507, 0x000409, 0x00030B, 0x00030D, 0x000210, 0x000212, 0x000114, 0x000117, 
       0x000019, 0x00001C, 0x000026, 0x000031, 0x00003B, 0x000046, 0x0C5F52, 0x19BE5F };
 CRGBPalette16 pacifica_palette_3 = 
+// currentPalette;
     { 0x000208, 0x00030E, 0x000514, 0x00061A, 0x000820, 0x000927, 0x000B2D, 0x000C33, 
       0x000E39, 0x001040, 0x001450, 0x001860, 0x001C70, 0x002080, 0x1040BF, 0x2060FF };
 
